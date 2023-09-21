@@ -29,6 +29,11 @@ body{
 @-ms-viewport {width: device-width;}
 @viewport {width: device-width;}
 /*--------------Typography--------------------------------------*/
+
+* {
+	scroll-behavior: smooth;
+}
+
 p {
 	text-align:left;
 	font-size:11px;
